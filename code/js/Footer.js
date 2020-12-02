@@ -6,4 +6,4 @@ const json
 
 }
 
-document.getElementsByTagName("body")[0].innerHTML = '<footer>' + json.footer + '</footer>';
+document.getElementsByTagName("body")[0].innerHTML += '<footer>' + json.footer + '</footer>';
