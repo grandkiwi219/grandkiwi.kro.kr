@@ -2,7 +2,7 @@ const json
 =
 {
 
-    "sidebar": "<a href='/'>Home</a> <a href='/information'>Information</a> <a href='/community'>Community</a> <a href='/project'>Project</a>",
+    "sidebar": "<a href='/'>Home</a> <a href='/information'>Information</a> <a href='/community'>Community</a> <a href='/project'>Project</a>"
 
 }
 
