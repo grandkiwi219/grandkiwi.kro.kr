@@ -6,4 +6,4 @@ const json
 
 }
 
-document.getElementsByTagName("body")[0].innerHTML += json.sidebar;
+document.getElementsByTagName("body")[0].innerHTML += "      <input type="checkbox" id="navcheck" role="button" title="menu"><label for="navcheck" aria-hidden="true" title="menu"><span class="burger"><span class="bar"><span class="visuallyhidden">Menu</span></span></span></label><nav id="menu">" + json.sidebar + "</nav>";
