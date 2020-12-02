@@ -6,4 +6,4 @@ const json
 
 }
 
-document.getElementsByTagName("body")[0].innerHTML += '<header>' + json.header + '</header>';
+document.write('<header>' + json.header + '</header>');
