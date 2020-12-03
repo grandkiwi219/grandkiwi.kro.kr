@@ -81,6 +81,10 @@ body {
     box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.6);
  }
 
+button {
+   font-family:cookieRun;
+}
+
  .button_design {
     color:white;
     background-color:rgba(0, 0, 0, 0.3);
