@@ -30,7 +30,7 @@ body::before {
       content: ""; 
 }
 header {
-        height:100px;
+        height:80px;
 }
 footer {
         color:silver;
