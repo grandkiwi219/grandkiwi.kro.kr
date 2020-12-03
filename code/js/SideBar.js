@@ -1,4 +1,4 @@
-const json
+const sb
 =
 {
 
@@ -6,4 +6,4 @@ const json
 
 }
 
-document.write('<input type="checkbox" id="navcheck" role="button" title="menu"><label for="navcheck" aria-hidden="true" title="menu"><span class="burger"><span class="bar"><span class="visuallyhidden">Menu</span></span></span></label><nav id="menu">' + json.sidebar + '</nav>');
+document.write('<input type="checkbox" id="navcheck" role="button" title="menu"><label for="navcheck" aria-hidden="true" title="menu"><span class="burger"><span class="bar"><span class="visuallyhidden">Menu</span></span></span></label><nav id="menu">' + sb.sidebar + '</nav>');
