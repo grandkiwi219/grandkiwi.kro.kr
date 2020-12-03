@@ -81,10 +81,6 @@ body {
     box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.6);
  }
 
-button {
-   font-family:cookieRun;
-}
-
  .button_design {
     color:white;
     background-color:rgba(0, 0, 0, 0.3);
@@ -97,12 +93,9 @@ button {
     margin:4px;
     cursor:pointer;
     border-radius:10px 0 10px 0;
-    transition: 0.3s;
  }
 
-  .button_design::hover {
-     background-color:rgba(0, 0, 0, 0.5);
-  }
+
 
 /*Link: https://codemyui.com/tag/sidebar/*/
 
