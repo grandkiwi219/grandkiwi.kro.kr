@@ -83,10 +83,9 @@ body {
 
  .button_design {
     color:white;
-    background-color:rgba(0, 0, 0, 0);
+    background-color:rgba(0, 0, 0, 0.3);
     width:100px;
     border:2px solid #A4FDA8;
-    color:#fff;
     padding:15px 0;
     text-align:center;
     display:inline-block;
