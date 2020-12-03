@@ -1,4 +1,4 @@
-const json
+const header
 =
 {
 
@@ -6,4 +6,4 @@ const json
 
 }
 
-document.write('<header>' + json.header + '</header>');
+document.write('<header>' + header.header + '</header>');
