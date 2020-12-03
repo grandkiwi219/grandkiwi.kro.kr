@@ -1,4 +1,4 @@
-const json
+const footer
 =
 {
 
@@ -6,4 +6,4 @@ const json
 
 }
 
-document.write('<footer>' + json.footer + '</footer>');
+document.write('<footer>' + footer.footer + '</footer>');
