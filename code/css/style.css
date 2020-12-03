@@ -93,7 +93,12 @@ body {
     margin:4px;
     cursor:pointer;
     border-radius:10px 0 10px 0;
+    transition: 0.3s;
  }
+
+  .button_design::hover {
+     background-color:rgba(0, 0, 0, 0.5);
+  }
 
 /*Link: https://codemyui.com/tag/sidebar/*/
 
