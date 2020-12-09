@@ -7,7 +7,7 @@
 
          data.forEach((friend) => {
 
-           document.write('<p>' + friend.name + '</p>');
+           document.getElementById('test').innerHtml += '<p>' + friend.name + '</p>';
            
          })
       }
