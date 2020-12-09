@@ -44,6 +44,27 @@
       <div>
          <img src="../img/icon.jpg" style="vertical-align:bottom; width:20px; height:20px;"> tttteeeesssstttt
       </div>
+
+      <script type="text/javascript">
+var request = new XMLHttpRequest()
+
+// Open a new connection, using the GET request on the URL endpoint
+request.open('GET', 'https://ghibliapi.herokuapp.com/films', true)
+
+request.onload = function () {
+  // Begin accessing JSON data here
+}
+
+// Send request
+request.send()
+
+var data = JSON.parse(this.response)
+
+data.forEach((movie) => {
+  // Log each movie's title
+  document.write(movie.title)
+})
+      </script>
       
 
       </div>
