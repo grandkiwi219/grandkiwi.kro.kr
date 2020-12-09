@@ -7,7 +7,7 @@
 
          data.forEach((friend) => {
 
-           document.write(friend.name)
+           document.write('<p>' + friend.name + '</p>')
            
          })
       }
