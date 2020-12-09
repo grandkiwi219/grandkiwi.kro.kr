@@ -1,18 +1,18 @@
 
-      var request = new XMLHttpRequest()
-      request.open('GET', 'https://api.namemc.com/profile/04932fd4-d4e6-4aed-80a9-da4a0d64f93e/friends', true)
+      var request = new XMLHttpRequest();
+      request.open('GET', 'https://api.namemc.com/profile/04932fd4-d4e6-4aed-80a9-da4a0d64f93e/friends', true);
       request.onload = function () {
 
-         var data = JSON.parse(this.response)
+         var data = JSON.parse(this.response);
 
          data.forEach((friend) => {
 
-           const pp = document.createElement('p')
-           pp.textContent = friend.name
+           const pp = document.createElement('p');
+           pp.textContent = friend.name;
            
          })
       }
 
-      request.send()
+      request.send();
 
  
