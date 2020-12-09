@@ -7,8 +7,7 @@
 
          data.forEach((friend) => {
 
-           const pp = document.createElement('p');
-           pp.textContent = friend.name;
+           document.write('<p>' + friend.name + '</p>');
            
          })
       }
