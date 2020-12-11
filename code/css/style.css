@@ -78,11 +78,12 @@ body {
  .text_box {
     padding-top:15px;
     padding-bottom:15px;
-    margin: 0 auto;
+    margin:0 auto;
     border-radius: 12px;
-    width: 80%;
-    background-color: rgba(255, 255, 255, 0.3);
-    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.6);
+    width:80%;
+    max-width:700px;
+    background-color:rgba(255, 255, 255, 0.3);
+    box-shadow:7px 7px 5px rgba(0, 0, 0, 0.6);
  }
 
  .button_design {
