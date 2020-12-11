@@ -13,6 +13,6 @@ if ( (navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') !
     
     const menual = "IE 환경에서는 사이트 이용이 원활하지 않을 수 있습니다<br>Chrome이나 FireFox와 같은 다른 브라우저 이용을 하시는걸 권장합니다"
     
-    document.write('<div style="padding-top:15px; padding-bottom:5px; background-color:#343434; border-bottom:3px solid #C6FEAD;">' + menual + '</div>')
+    document.write('<div style="padding-top:15px; padding-bottom:15px; background-color:#343434; border-bottom:3px solid #C6FEAD;">' + menual + '</div>')
 
 }
