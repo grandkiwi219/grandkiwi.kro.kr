@@ -16,3 +16,13 @@ if ( (navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') !
     document.write('<div style="padding-top:15px; padding-bottom:15px; background-color:#343434; border-bottom:3px solid #C6FEAD;">' + menual + '</div>')
 
 }
+
+
+
+// notice
+
+    var notice = `
+테스트
+`
+
+    //document.write('<div style="padding-top:15px; padding-bottom:15px; background-color:#343434; border-bottom:3px solid #C6FEAD;">' + notice + '</div>')
