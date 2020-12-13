@@ -13,3 +13,8 @@ document.getElementsByTagName("header")[0].innerHTML = json.header;
 document.getElementsByTagName("footer")[0].innerHTML = json.footer;
 
 document.getElementById("2020").innerHTML = json.Koma_2020;
+
+
+ 
+         alert('접근이 금지되었습니다');
+         location.href="/";
