@@ -21,7 +21,11 @@ if ( (navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') !
 
 // notice
 
-    var notice = `
+var notice
+
+=
+
+`
 테스트
 `
 
