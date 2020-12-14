@@ -48,6 +48,8 @@ footer {
 a { text-decoration:none; color:#E3C4FE; }
 
 hr { border:solid 0.2px silver; width:95%; }
+  
+br { font-family:default; }
 
 img { max-height:60vh; max-width:60vh; height:60%; width:60%; }
 
