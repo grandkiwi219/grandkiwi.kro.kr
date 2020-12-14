@@ -7,14 +7,14 @@ body {
       padding:0;
       text-align:center;
       color:white;
-      overflow-y:scroll;
       overflow-x:hidden;
+      /*overflow-y:scroll;
       -ms-overflow-style:none;
       scrollbar-width: none;
 }
 
 body::-webkit-scrollbar {
-      display:none;
+      display:none;*/
 }
 
 body::before { 
