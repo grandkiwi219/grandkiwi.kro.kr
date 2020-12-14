@@ -5,7 +5,7 @@ minecraft.onload = function () {
 
     const doc_mc = document.getElementById('minecraft').innerHTML
 
-    doc_mc += '<p>minecraft.net&emsp;|&emsp;' + session[minecraft.net] + '</p>';
+    doc_mc += '<p>minecraft.net&emsp;|&emsp;' + session["minecraft.net"] + '</p>';
     doc_mc += '<p>session.minecraft.net&emsp;|&emsp;' + session[session.minecraft.net] + '</p>';
     doc_mc += '<p>account.mojang.com&emsp;|&emsp;' + session[account.mojang.com] + '</p>';
     doc_mc += '<p>authserver.mojang.com&emsp;|&emsp;' + session[authserver.mojang.com] + '</p>';
