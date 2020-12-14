@@ -1,7 +1,7 @@
 var minecraft = new XMLHttpRequest();
 minecraft.open('GET', 'https://status.mojang.com/check', true);
 minecraft.onload = function () {
-    var session = JSON.parse(this.reponse);
+    var session = JSON.parse(this.response);
 
     const doc_mc = document.getElementById('minecraft').innerHTML;
 
