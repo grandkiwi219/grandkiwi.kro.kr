@@ -26,7 +26,7 @@ var notice
 =
 
 `
-Merry Christmas 🎄!<br />
+Merry Christmas 🎄!<br>
 좋은 하루 되시길 바랍니다!
 `
 
