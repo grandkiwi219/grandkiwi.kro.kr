@@ -14,7 +14,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-      display:none:
+      display:none;
 }
 
 body::before { 
