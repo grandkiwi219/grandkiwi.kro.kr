@@ -3,7 +3,7 @@ minecraft.open('GET', 'https://status.mojang.com/check', true);
 minecraft.onload = function () {
     var session = JSON.parse(this.minecraft);
 
-    const doc_mc = document.getElementById('minecraft').innerHTML
+    const doc_mc = document.getElementById('minecraft').innerHTML;
 
     doc_mc += '<p>minecraft.net&emsp;|&emsp;' + session[0]["minecraft.net"] + '</p>';
     doc_mc += '<p>session.minecraft.net&emsp;|&emsp;' + session[1]["session.minecraft.net"] + '</p>';
