@@ -21,13 +21,6 @@ if ( (navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') !
 
 // notice
 
-var notice
-
-=
-
-`
-Merry Christmas 🎄!<br>
-좋은 하루 되시길 바랍니다!
-`
+var notice = `Merry Christmas 🎄!<br>좋은 하루 되시길 바랍니다!`
 
     //document.write('<div style="padding-top:15px; padding-bottom:15px; background-color:#343434; border-bottom:3px solid #C6FEAD;">' + notice + '</div>')
