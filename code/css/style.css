@@ -51,7 +51,7 @@ hr { border:solid 0.2px silver; width:95%; }
   
 br { font-family:default; }
 
-img { max-height:60vh; max-width:60vh; height:60%; width:60%; }
+img { max-width:60vh; width:60%; }
 
 
 @font-face {
