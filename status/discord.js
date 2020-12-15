@@ -5,9 +5,14 @@ var dis = {
    "partial_outage": "<span style='color:#ffec5c;'>부분 중단</span>",
    "major_outage": "<span style='color:#f5a142;'>주요중단</span>"
 }
+var sys = {
+   "All Systems Operational": "<span style='color:#03fc90;'>모든 시스템 운영 중</span>",
+   "Partial System Outage": "<span style='color:#f5a142;'>부분 시스템 중단</span>",
+   "Major Service Outage": "<span style='color:;#f54242'>주요 시스템 중단</span>"
+}
 sp.summary({
    success: function(data) {
-      document.getElementById('discord').innerHTML += '<hr>' + data.status.description + '<hr>';
+      document.getElementById('discord').innerHTML += '<hr>' + sys[data.status.description] + '<hr>';
 
       document.getElementById('discord').innerHTML += '<div>' + data.components[1].name + '&emsp;|&emsp;' + dis[data.components[1].status];
       if (data.components[1].description !== null) { document.getElementById('discord').innerHTML += '<br><span style="color:silver;">DESCRIPTION</span><br>' + data.components[1].description; }
