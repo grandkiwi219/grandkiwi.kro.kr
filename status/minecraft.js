@@ -23,6 +23,7 @@ minecraft.send();
 
 minecraft.onreadystatechange = function () {
     var session = JSON.parse.(this.response);
+    if (this.status == 200) {
 
     document.getElementById('m_n').innerHTML = 'minecraft.net&emsp;|&emsp;' + color[session[0]["minecraft.net"]];
     document.getElementById('s_m_n').innerHTML = 'session.minecraft.net&emsp;|&emsp;' + color[session[1]["session.minecraft.net"]];
@@ -32,6 +33,19 @@ minecraft.onreadystatechange = function () {
     document.getElementById('api_m').innerHTML = 'api.mojang.com&emsp;|&emsp;' + color[session[5]["api.mojang.com"]];
     document.getElementById('t_m_n').innerHTML = 'textures.minecraft.net&emsp;|&emsp;' + color[session[6]["textures.minecraft.net"]];
     document.getElementById('m_c').innerHTML = 'mojang.com&emsp;|&emsp;' + color[session[7]["mojang.com"]];
+
+    } else {
+
+    document.getElementById('m_n').innerHTML = 'minecraft.net&emsp;|&emsp;api error';
+    document.getElementById('s_m_n').innerHTML = 'session.minecraft.net&emsp;|&emsp;api error';
+    document.getElementById('a_m_c').innerHTML = 'account.mojang.com&emsp;|&emsp;api error';
+    document.getElementById('au_m_c').innerHTML = 'authserver.mojang.com&emsp;|&emsp;api error';
+    document.getElementById('s_m_c').innerHTML = 'sessionserver.mojang.com&emsp;|&emsp;api error';
+    document.getElementById('api_m').innerHTML = 'api.mojang.com&emsp;|&emsp;api error';
+    document.getElementById('t_m_n').innerHTML = 'textures.minecraft.net&emsp;|&emsp;api error';
+    document.getElementById('m_c').innerHTML = 'mojang.com&emsp;|&emsp;api error';
+
+    }
 
 }
 
