@@ -1,7 +1,7 @@
 const color = {
-    "green": "<img style='width:10px; height:10px;' src='../img/status/green.png'>",
-    "yellow": "<img style='width:10px; height:10px;' src='../img/status/yellow.png'>",
-    "red": "<img style='width:10px; height:10px;' src='../img/status/red.png'>"
+    "green": "<img style='width:12px; height:12px;' src='../img/status/green.png'>",
+    "yellow": "<img style='width:12px; height:12px;' src='../img/status/yellow.png'>",
+    "red": "<img style='width:12px; height:12px;' src='../img/status/red.png'>"
 }
 
 var minecraft = new XMLHttpRequest();
