@@ -1,7 +1,7 @@
 var hp = new StatusPage.page({ page : 'qhddg0t7xyb0' });
 hp.summary({
   success : function(data) {
-         document.getElementById('hypixel').innerHTML += '<hr>' + data.status.description;
+         document.getElementById('hypixel').innerHTML += '<hr>' + sys[data.status.description];
 
      data.components.forEach(slice => {
          document.getElementById('hypixel').innerHTML += '<hr>';
