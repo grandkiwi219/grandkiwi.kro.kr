@@ -7,7 +7,7 @@
 
          data.forEach((friend) => {
 
-           document.getElementById('test').innerHTML += '<p id="testing">' + friend.name + '</p>';
+           document.getElementById('test').innerHTML += '<p id="testing">ㅁㄴㅇㄹ' + friend.name + '</p>';
 
            setTimeout(() => document.getElementById('testing').innerHTML += '반갑다 인간', 5000)
            
