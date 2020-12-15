@@ -49,8 +49,8 @@ sp.summary({
       if (data.components[2].description !== null) { document.getElementById('discord').innerHTML += '<br><span style="color:silver;">DESCRIPTION</span><br>' + data.components[2].description; }
       document.getElementById('discord').innerHTML += '</div>';
 
-      document.getElementById('discord').innerHTML += '<hr><div>' + data.components[5].name + '&emsp;|&emsp;' + dis[data.components[5].status];
-      if (data.components[5].description !== null) { document.getElementById('discord').innerHTML += '<br><span style="color:silver;">DESCRIPTION</span><br>' + data.components[5].description; }
+      document.getElementById('discord').innerHTML += '<hr><div>' + data.components[4].name + '&emsp;|&emsp;' + dis[data.components[4].status];
+      if (data.components[4].description !== null) { document.getElementById('discord').innerHTML += '<br><span style="color:silver;">DESCRIPTION</span><br>' + data.components[4].description; }
       document.getElementById('discord').innerHTML += '</div>';
 
   }
