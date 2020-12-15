@@ -32,7 +32,7 @@ sp.components({
 
      data.components.forEach(slice => {
  
-         if (slice.name == 'API' || slice.name == 'CloudFlare' || slice.name == 'Media Proxy' || slice.name == 'Tax Calculation Service' || slice.name == 'Push Notifications' || slice.name == 'Search' || slice.name == 'Voice' || slice.name == 'Third-party')
+         if (slice.name == 'API' || slice.name == 'CloudFlare' || slice.name == 'Media Proxy' || slice.name == 'Tax Calculation Service' || slice.name == 'Push Notifications' || slice.name == 'Search' || slice.name == 'Voice' || slice.name == 'Third-party') return;
 
         document.getElementById('discord').innerHTML += '<hr>';
         document.getElementById('discord').innerHTML += '<div>';
