@@ -19,7 +19,7 @@
       <meta property="og:description" content="you can check status">
       <meta property="theme-color" data-react-helmet="true" content="#96FFCF">
       
-      <script src="./minecraft.js" defer></script>
+
 
    </head>
 
@@ -42,7 +42,18 @@
             <hr>
             <p></p>
          </div>
-
+      <script type="text/javascript" src="https://cdn.statuspage.io/se-v2.js"></script>
+      <script>
+        var sp = new StatusPage.page({ page : 'srhpyqt94yxb' });
+        sp.status({
+          success : function(data) {
+             document.getElementById('discord').innerHTML += '<p>' + data.page.name + '<br>updated at&emsp;|&emsp;' + data.page.updated_at +'<br>Description&emsp;|&emsp;' + data.status.description + '<br>Indicator&emsp;|&emsp;' + data.status.indicator + '<p>';
+          }
+        });
+      </script>
+      
+      <script src="./minecraft.js"></script>
+      
       <script src="../code/js/Footer.js"></script>
 
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
