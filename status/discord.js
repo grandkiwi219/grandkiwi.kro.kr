@@ -8,7 +8,8 @@ var dis = {
 var sys = {
    "All Systems Operational": "<span style='color:#03fc90;'>모든 시스템 운영 중</span>",
    "Partial System Outage": "<span style='color:#f5a142;'>부분 시스템 중단</span>",
-   "Major Service Outage": "<span style='color:;#f54242'>주요 시스템 중단</span>"
+   "Major Service Outage": "<span style='color:;#f54242'>주요 서비스 중단</span>",
+   "Minor Service Outage": "<span style='color:#ffec5c;'>사소한 서비스 중단</span>"
 }
 sp.summary({
    success: function(data) {
