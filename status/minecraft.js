@@ -19,8 +19,6 @@ minecraft.onload = function () {
     document.getElementById('minecraft').innerHTML += '<p m_c>mojang.com&emsp;|&emsp;' + color[session[7]["mojang.com"]] + '</p>';
 
       }
-minecraft.send();
-
 minecraft.onreadystatechange = function () {
     var session = JSON.parse.(this.response);
     if (this.status == 200) {
@@ -48,5 +46,6 @@ minecraft.onreadystatechange = function () {
     }
 
 }
+minecraft.send();
 
- 
+
