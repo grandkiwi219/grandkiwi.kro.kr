@@ -9,6 +9,8 @@ minecraft.open('GET', 'https://status.mojang.com/check', true);
 minecraft.onload = function () {
     var session = JSON.parse(this.response);
 
+    document.getElementById('minecraft').innerHTML += '<hr>'
+
     document.getElementById('minecraft').innerHTML += '<p id="m_n">minecraft.net&emsp;|&emsp;' + color[session[0]["minecraft.net"]] + '</p>';
     document.getElementById('minecraft').innerHTML += '<p id="s_m_n">session.minecraft.net&emsp;|&emsp;' + color[session[1]["session.minecraft.net"]] + '</p>';
     document.getElementById('minecraft').innerHTML += '<p id="a_m_c">account.mojang.com&emsp;|&emsp;' + color[session[2]["account.mojang.com"]] + '</p>';
