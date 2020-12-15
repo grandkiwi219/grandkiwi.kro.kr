@@ -19,7 +19,7 @@ minecraft.onload = function () {
     document.getElementById('minecraft').innerHTML += '<p m_c>mojang.com&emsp;|&emsp;' + color[session[7]["mojang.com"]] + '</p>';
 
       }
-setInterval(() => 
+/*setInterval(() => 
     minecraft.onload = function () {
         var session = JSON.parse(this.response);
 
@@ -33,7 +33,7 @@ setInterval(() =>
         document.getElementById('m_c').innerHTML = 'mojang.com&emsp;|&emsp;' + color[session[7]["mojang.com"]];
 
     } 
-, 5000)
+, 5000)*/
 minecraft.send();
 
 
