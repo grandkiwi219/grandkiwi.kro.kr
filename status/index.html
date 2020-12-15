@@ -37,7 +37,11 @@
          </div>
 
          <div id="discord" data-aos="fade-up" data-aos-duration="1000" class="text_box" style="padding-top:3px; margin-top:30px;">
-            <h2>discord</h2>
+            <h2>Discord</h2>
+         </div>
+
+         <div id="hypixel" data-aos="fade-up" data-aos-duration="1000" class="text_box" style="padding-top:3px; margin-top:30px;">
+            <h2>Hypixel</h2>
          </div>     
       
       
@@ -52,7 +56,7 @@
            "partial_outage": "<span style='color:#ffec5c;'>부분 중단</span>",
            "major_outage": "<span style='color:#f5a142;'>주요중단</span>"
         }
-        sp.components({
+        sp.summary({
            success: function(data) {
                 document.getElementById('discord').innerHTML += '<hr>' + data.status.description + '<hr>';
 
@@ -104,6 +108,24 @@
 
           }
         })
+      </script>
+
+      <script type="text/javascript" src="https://cdn.statuspage.io/se-v2.js"></script>
+      <script>
+        var sp = new StatusPage.page({ page : 'qhddg0t7xyb0' });
+        sp.summary({
+          success : function(data) {
+                document.getElementById('hypixel').innerHTML += '<hr>' + data.status.description;
+
+            data.components.forEach(slice => {
+                document.getElementById('hypixel').innerHTML += '<hr>';
+                document.getElementById('hypixel').innerHTML += '<div>';
+                document.getElementById('hypixel').innerHTML += slice.name + '&emsp;|&emsp;' + dis[slice.status];
+                if (slice.description !== null) { document.getElementById('hypixel').innerHTML += '<br><br><span style="color:silver;">DESCRIPTION</span><br>' + slice.description; }
+                document.getElementById('hypixel').innerHTML += '</div>';
+            })
+          }
+        });
       </script>
 
 
