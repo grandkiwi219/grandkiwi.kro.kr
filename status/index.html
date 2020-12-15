@@ -47,7 +47,7 @@
         var sp = new StatusPage.page({ page : 'srhpyqt94yxb' });
         sp.status({
           success : function(data) {
-              document.getElementById('discord').innerHTML += '<p>' + data.page.name + '<br>updated at&emsp;|&emsp;' + data.page.updated_at +'<br>Description&emsp;|&emsp;' + data.status.description + '<br>Indicator&emsp;|&emsp;' + data.status.indicator + '<p>';
+              document.getElementById('discord').innerHTML += '<p>' + data.page.name + '<br>Indicator&emsp;|&emsp;' + data.status.indicator + '<br>Description&emsp;|&emsp;' + data.status.description + '<br>updated at&emsp;|&emsp;' + data.page.updated_at + '<p>';
           }
         });
       </script>
