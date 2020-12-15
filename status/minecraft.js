@@ -20,7 +20,7 @@ minecraft.onload = function () {
 
       }
 setInterval(() => 
-    minecraft.onload = function() {
+    minecraft.onload = function () {
         var session = JSON.parse(this.response);
 
         document.getElementById('m_n').innerHTML = 'minecraft.net&emsp;|&emsp;' + color[session[0]["minecraft.net"]];
