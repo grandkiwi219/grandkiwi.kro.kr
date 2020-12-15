@@ -54,7 +54,7 @@
         }
         sp.components({
            success: function(data) {
-                document.getElementById('discord').innerHTML += '<hr>'; //+ data.status.description + '<hr>';
+                document.getElementById('discord').innerHTML += '<hr>' + data.status.description + '<hr>';
 
                 document.getElementById('discord').innerHTML += '<div>' + data.components[1].name + '&emsp;|&emsp;' + dis[data.components[1].status];
                 if (slice.description !== null) { document.getElementById('discord').innerHTML += '<br><br><span style="color:silver;">DESCRIPTION</span><br>' + data.components[1].description; }
