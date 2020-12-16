@@ -1,7 +1,7 @@
 var gh = new StatusPage.page({ page : 'kctbh9vrtdwd' });
 gh.summary({
   success : function(data) {
-         document.getElementById('discord').innerHTML = '<h2><a href"' + data.page.url + '">' + data.page.name + '</a></h2>';
+         document.getElementById('github').innerHTML = '<h2><a href"' + data.page.url + '">' + data.page.name + '</a></h2>';
     
          document.getElementById('github').innerHTML += '<hr>' + sys[data.status.description];
 
