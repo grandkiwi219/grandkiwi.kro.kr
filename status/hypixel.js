@@ -1,6 +1,8 @@
 var hp = new StatusPage.page({ page : 'qhddg0t7xyb0' });
 hp.summary({
   success : function(data) {
+         document.getElementById('discord').innerHTML = '<h2><a href"' + data.page.url + '">' + data.page.name + '</a></h2>'; 
+    
          document.getElementById('hypixel').innerHTML += '<hr>' + sys[data.status.description];
 
      data.components.forEach(slice => {
