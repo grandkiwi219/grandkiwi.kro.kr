@@ -3,13 +3,15 @@ var dis = {
    "operational": "<span style='color:#03fc90;'>운영 중</span>",
    "degraded_performance": "<span style='color:;#f54242'>성능 저하</span>",
    "partial_outage": "<span style='color:#ffec5c;'>부분 중단</span>",
-   "major_outage": "<span style='color:#f5a142;'>주요중단</span>"
+   "major_outage": "<span style='color:#f5a142;'>주요중단</span>",
+   "under_maintenance": "<span style='color:#34a1eb;'>보수 작업중</span>"
 }
 var sys = {
    "All Systems Operational": "<span style='color:#03fc90;'>모든 시스템 운영 중</span>",
    "Partial System Outage": "<span style='color:#f5a142;'>부분 시스템 중단</span>",
    "Major Service Outage": "<span style='color:;#f54242'>주요 서비스 중단</span>",
-   "Minor Service Outage": "<span style='color:#ffec5c;'>사소한 서비스 중단</span>"
+   "Minor Service Outage": "<span style='color:#ffec5c;'>사소한 서비스 중단</span>",
+   "Service Under Maintenance": "<span style='color:#34a1eb;'>서비스 유지 보수중인</span>"
 }
 sp.summary({
    success: function(data) {
