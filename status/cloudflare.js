@@ -5,7 +5,7 @@ cf.summary({
     
          document.getElementById('cloudflare').innerHTML += '<hr>' + sys[data.status.description];
     
-         document.getElementById('cloudflare').innerHTML += '<hr><a href="#cloudflare" id="a_show" onclick="click_event();">[ 펼치기 ]</a><div id="cloud_flare" style="display:none;">';
+         document.getElementById('cloudflare').innerHTML += '<hr><a href="#cloudflare" id="a_show" onclick="folding();">[ 펼치기 ]</a><div id="cloud_flare" style="display:none;">';
      
 
      data.components.forEach(slice => {
