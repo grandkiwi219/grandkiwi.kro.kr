@@ -121,7 +121,7 @@ body {
 
  .folding {
     height:auto;
-    transition:height 1.5s ease-out;
+    transition:max-height 1.5s ease-out;
     max-height:0px;
  }
 
