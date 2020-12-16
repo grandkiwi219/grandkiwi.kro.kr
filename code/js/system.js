@@ -24,3 +24,10 @@ if ( (navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') !
 var notice = "Merry Christmas 🎄!<br/>좋은 하루 되시길 바랍니다!"
 
     //document.write('<div style="padding-top:15px; padding-bottom:15px; background-color:#343434; border-bottom:3px solid #C6FEAD;">' + notice + '</div>')
+
+
+//function
+
+function folding () {
+    if (this.nextSibling.style.display == "none") { this.nextSibling.style.display=""; this.innerText = "[ 접기 ]" } else { this.nextSibling.style.display="none"; this.innerText = "[ 펼치기 ]" }
+}
