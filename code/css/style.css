@@ -119,16 +119,6 @@ body {
     margin:0 auto;
  }
 
- .folding {
-    height:auto;
-    transition:max-height 1.5s ease-out;
-    max-height:0px;
- }
-
- .folding.open {
-    max-height:100000000000000px;
- }
-
 
 
 /*Link: https://codemyui.com/tag/sidebar/*/
