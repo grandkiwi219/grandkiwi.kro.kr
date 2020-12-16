@@ -5,7 +5,7 @@ cf.summary({
     
          document.getElementById('cloudflare').innerHTML += '<hr>' + sys[data.status.description];
     
-         document.getElementById('cloudflare').innerHTML += '<hr><a href="#cloudflare" id="a_show" onclick="click_event();">[ 펼치기 ]</a><div id="cloud_flare" style="display:none;">';
+         document.getElementById('cloudflare').innerHTML += '<hr><a href="#cloudflare" id="cloud_flare_a" onclick="' + "folding('cloud_flare_a', 'cloud_flare');" + '">[ 펼치기 ]</a><div id="cloud_flare" style="display:none;">';
      
 
      data.components.forEach(slice => {
@@ -18,6 +18,3 @@ cf.summary({
    }
 });
 
-function click_event () {
-  if (cloud_flare.style.display == "none") { cloud_flare.style.display=""; a_show.innerText = "[ 접기 ]" } else { cloud_flare.style.display="none"; a_show.innerText = "[ 펼치기 ]" }
-}
