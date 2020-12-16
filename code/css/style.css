@@ -120,12 +120,13 @@ body {
  }
 
  .folding {
-    height:0;
+    height:auto;
     transition:height 1.5s;
+    max-height:0px;
  }
 
  .folding.open {
-    height:auto;
+    max-height:100000000000000px;
  }
 
 
