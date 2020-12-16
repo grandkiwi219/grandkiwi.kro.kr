@@ -1,6 +1,8 @@
 var cf = new StatusPage.page({ page : 'yh6f0r4529hb' });
 cf.summary({
   success : function(data) {
+         document.getElementById('cloudflare').innerHTML = '<h2><a href"' + data.page.url + '">' + data.page.name + '</a></h2>';
+    
          document.getElementById('cloudflare').innerHTML += '<hr>' + sys[data.status.description];
     
          document.getElementById('cloudflare').innerHTML += '<hr><a href="#cloudflare" id="a_show" onclick="click_event();">[ 펼치기 ]</a><div id="cloud_flare" style="display:none;">';
