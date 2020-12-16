@@ -119,6 +119,15 @@ body {
     margin:0 auto;
  }
 
+ .folding {
+    height:0;
+    transition:height 1.5s;
+ }
+
+ .folding.open {
+    height:auto;
+ }
+
 
 
 /*Link: https://codemyui.com/tag/sidebar/*/
