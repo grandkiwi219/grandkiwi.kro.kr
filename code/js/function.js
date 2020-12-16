@@ -1,3 +1,5 @@
-function folding () {
-    if (this.nextElementSibling.style.display == "none") { this.nextElementSibling.style.display=""; this.innerText = "[ 접기 ]" } else { this.nextElementSibling.style.display="none"; this.innerText = "[ 펼치기 ]" }
+function folding (id) {
+    var ne = document.getElementById(id)
+
+    if (ne.style.display == "none") { ne.style.display=""; this.innerText = "[ 접기 ]" } else { ne.style.display="none"; this.innerText = "[ 펼치기 ]" }
 }
