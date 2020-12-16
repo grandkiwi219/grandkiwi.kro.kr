@@ -8,6 +8,8 @@ var minecraft = new XMLHttpRequest();
 minecraft.open('GET', 'https://status.mojang.com/check', true);
 minecraft.onload = function () {
     var session = JSON.parse(this.response);
+    
+    document.getElementById('minecraft').innerHTML = '<h2><a>Minecraft</a></h2>;
 
     document.getElementById('minecraft').innerHTML += '<hr>';
 
