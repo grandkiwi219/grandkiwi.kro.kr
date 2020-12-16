@@ -5,10 +5,8 @@ hp.summary({
 
      data.components.forEach(slice => {
          document.getElementById('hypixel').innerHTML += '<hr>';
-         document.getElementById('hypixel').innerHTML += '<div>';
          document.getElementById('hypixel').innerHTML += slice.name + '&emsp;|&emsp;' + dis[slice.status];
          if (slice.description !== null) { document.getElementById('hypixel').innerHTML += '<br><span style="color:silver;">DESCRIPTION</span><br>' + slice.description; }
-         document.getElementById('hypixel').innerHTML += '</div>';
       })
    }
 });
