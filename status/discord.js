@@ -15,7 +15,7 @@ var sys = {
 }
 sp.summary({
    success: function(data) {
-      document.getElementById('discord').innerHTML = '<h2><a href"' + data.page.url + '">' + data.page.name + '</a></h2>';
+      document.getElementById('discord').innerHTML = '<h2><a href="' + data.page.url + '">' + data.page.name + '</a></h2>';
       
       document.getElementById('discord').innerHTML += '<hr>' + sys[data.status.description] + '<hr>';
 
