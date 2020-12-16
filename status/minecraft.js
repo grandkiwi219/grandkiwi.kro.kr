@@ -17,8 +17,8 @@ minecraft.onload = function () {
     document.getElementById('minecraft').innerHTML += '<p id="au_m_c">authserver.mojang.com&emsp;|&emsp;' + color[session[3]["authserver.mojang.com"]] + '</p>';
     document.getElementById('minecraft').innerHTML += '<p id="s_m_c">sessionserver.mojang.com&emsp;|&emsp;' + color[session[4]["sessionserver.mojang.com"]] + '</p>';
     document.getElementById('minecraft').innerHTML += '<p id="api_m">api.mojang.com&emsp;|&emsp;' + color[session[5]["api.mojang.com"]] + '</p>';
-    document.getElementById('minecraft').innerHTML += '<p t_m_n>textures.minecraft.net&emsp;|&emsp;' + color[session[6]["textures.minecraft.net"]] + '</p>';
-    document.getElementById('minecraft').innerHTML += '<p m_c>mojang.com&emsp;|&emsp;' + color[session[7]["mojang.com"]] + '</p>';
+    document.getElementById('minecraft').innerHTML += '<p id="t_m_n">textures.minecraft.net&emsp;|&emsp;' + color[session[6]["textures.minecraft.net"]] + '</p>';
+    document.getElementById('minecraft').innerHTML += '<p id="m_c">mojang.com&emsp;|&emsp;' + color[session[7]["mojang.com"]] + '</p>';
 
       }
 /*setInterval(() => 
