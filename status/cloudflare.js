@@ -1,7 +1,7 @@
 var cf = new StatusPage.page({ page : 'yh6f0r4529hb' });
 cf.summary({
   success : function(data) {
-         document.getElementById('cloudflare').innerHTML = '<h2><a href"' + data.page.url + '">' + data.page.name + '</a></h2>';
+         document.getElementById('cloudflare').innerHTML = '<h2><a href="' + data.page.url + '">' + data.page.name + '</a></h2>';
     
          document.getElementById('cloudflare').innerHTML += '<hr>' + sys[data.status.description];
     
