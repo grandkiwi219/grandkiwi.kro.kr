@@ -4,9 +4,11 @@ const color = {
     "red": "<img style='width:12px; height:12px;' src='../img/status/red.png'>"
 }
 
+const errorTime = '<img style="width:18px; height:18px;" src="../img/status/red.png">&emsp;|&emsp;<span syle="color:#ff2424;">시간 초과</span>';
+
 setTimeout(() => {
     if (document.getElementById('load-minecraft').innerHTML == '<img style="width:18px; height:18px;" src="../img/status/loading.gif">&emsp;|&emsp;로딩 중..') {
-        document.getElementById('load-minecraft').innerHTML = '<img style="width:18px; height:18px;" src="../img/status/red.png">&emsp;|&emsp;<span syle="color:#ff2424;">시간 초과</span>'
+        document.getElementById('load-minecraft').innerHTML = errorTime;
     }
 }, 10000) //10s
 
