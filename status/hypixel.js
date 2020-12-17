@@ -1,3 +1,9 @@
+setTimeout(() => {
+    if (document.getElementById('load-hypixel').innerHTML == '<img style="width:18px; height:18px;" src="../img/status/loading.gif">&emsp;|&emsp;로딩 중..') {
+        document.getElementById('load-hypixel').innerHTML = errorTime;
+    }
+}, 10000) //10s
+
 var hp = new StatusPage.page({ page : 'qhddg0t7xyb0' });
 hp.summary({
   success : function(data) {
