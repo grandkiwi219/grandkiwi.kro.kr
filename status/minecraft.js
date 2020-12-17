@@ -7,7 +7,7 @@ const color = {
 const errorTime = '<img style="width:18px; height:18px;" src="../img/status/red.png">&emsp;|&emsp;<span syle="color:#ff2424;">시간 초과</span>';
 
 setTimeout(() => {
-    if (document.getElementById('load-minecraft').innerHTML == '<img style="width:18px; height:18px;" src="../img/status/loading.gif">&emsp;|&emsp;로딩 중..') {
+    if (document.getElementById('load-minecraft')) {
         document.getElementById('load-minecraft').innerHTML = errorTime;
     } else {
         console.log('minecraft api loading success')
