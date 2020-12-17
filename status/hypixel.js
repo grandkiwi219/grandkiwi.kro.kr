@@ -1,5 +1,5 @@
 setTimeout(() => {
-    if (document.getElementById('load-hypixel').innerHTML == '<img style="width:18px; height:18px;" src="../img/status/loading.gif">&emsp;|&emsp;로딩 중..') {
+    if (document.getElementById('load-hypixel')) {
         document.getElementById('load-hypixel').innerHTML = errorTime;
     } else {
         console.log('hypixel api loading success')
