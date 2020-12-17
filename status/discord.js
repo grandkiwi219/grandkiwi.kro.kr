@@ -13,6 +13,13 @@ var sys = {
    "Minor Service Outage": "<span style='color:#ffec5c;'>사소한 서비스 중단</span>",
    "Service Under Maintenance": "<span style='color:#34a1eb;'>서비스 유지 보수중</span>"
 }
+
+setTimeout(() => {
+    if (document.getElementById('load-discord').innerHTML == '<img style="width:18px; height:18px;" src="../img/status/loading.gif">&emsp;|&emsp;로딩 중..') {
+        document.getElementById('load-discord').innerHTML = errorTime;
+    }
+}, 10000) //10s
+
 sp.summary({
    success: function(data) {
       document.getElementById('discord').innerHTML = '<h2><a href="' + data.page.url + '">' + data.page.name + '</a></h2>';
