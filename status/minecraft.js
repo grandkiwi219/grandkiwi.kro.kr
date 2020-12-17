@@ -9,6 +9,8 @@ const errorTime = '<img style="width:18px; height:18px;" src="../img/status/red.
 setTimeout(() => {
     if (document.getElementById('load-minecraft').innerHTML == '<img style="width:18px; height:18px;" src="../img/status/loading.gif">&emsp;|&emsp;로딩 중..') {
         document.getElementById('load-minecraft').innerHTML = errorTime;
+    } else {
+        console.log('minecraft api loading success')
     }
 }, 10000) //10s
 
