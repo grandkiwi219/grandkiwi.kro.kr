@@ -15,7 +15,7 @@ var sys = {
 }
 
 setTimeout(() => {
-    if (document.getElementById('load-discord').innerHTML == '<img style="width:18px; height:18px;" src="../img/status/loading.gif">&emsp;|&emsp;로딩 중..') {
+    if (document.getElementById('load-discord')) {
         document.getElementById('load-discord').innerHTML = errorTime;
     } else {
         console.log('discord api loading success')
