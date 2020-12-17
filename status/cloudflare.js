@@ -1,3 +1,9 @@
+setTimeout(() => {
+    if (document.getElementById('load-cloudflare').innerHTML == '<img style="width:18px; height:18px;" src="../img/status/loading.gif">&emsp;|&emsp;로딩 중..') {
+        document.getElementById('load-cloudflare').innerHTML = errorTime;
+    }
+}, 10000) //10s
+
 var cf = new StatusPage.page({ page : 'yh6f0r4529hb' });
 cf.summary({
   success : function(data) {
@@ -5,13 +11,13 @@ cf.summary({
     
          document.getElementById('cloudflare').innerHTML += '<hr>' + sys[data.status.description];
     
-         document.getElementById('cloudflare').innerHTML += '<hr><a href="#cloudflare" id="cloud_flare_a" onclick="' + "folding('cloud_flare_a', 'cloud_flare');" + '">[ 펼치기 ]</a><div id="cloud_flare" style="display:none;">';
+         document.getElementById('cloudflare').innerHTML += '<hr><a href="#cloudflare" id="cloud-flare-a" onclick="' + "folding('cloud-flare-a', 'cloud-flare');" + '">[ 펼치기 ]</a><div id="cloud-flare" style="display:none;">';
      
 
      data.components.forEach(slice => {
-         document.getElementById('cloud_flare').innerHTML += '<hr>';
-         document.getElementById('cloud_flare').innerHTML += slice.name + '&emsp;|&emsp;' + dis[slice.status];
-         if (slice.description !== null) { document.getElementById('cloud_flare').innerHTML += '<br><span style="color:silver;">DESCRIPTION</span><br>' + slice.description; }
+         document.getElementById('cloud-flare').innerHTML += '<hr>';
+         document.getElementById('cloud-flare').innerHTML += slice.name + '&emsp;|&emsp;' + dis[slice.status];
+         if (slice.description !== null) { document.getElementById('cloud-flare').innerHTML += '<br><span style="color:silver;">DESCRIPTION</span><br>' + slice.description; }
       })
   
     
