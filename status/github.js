@@ -1,6 +1,8 @@
 setTimeout(() => {
     if (document.getElementById('load-github').innerHTML == '<img style="width:18px; height:18px;" src="../img/status/loading.gif">&emsp;|&emsp;로딩 중..') {
         document.getElementById('load-github').innerHTML = errorTime;
+    } else {
+        console.log('github api loading success')
     }
 }, 10000) //10s
 
