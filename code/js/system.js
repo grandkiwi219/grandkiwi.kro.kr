@@ -26,14 +26,26 @@ var notice = 'Minecraft / Discord / Hypixel / GitHub / CloudFlare status 페이�
 
 if ( (navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') != -1) || (agent.indexOf("msie") != -1) ) {
 
-    return document.getElementById('IE').innerHTML += '<br/>' + notice;
-    
-} if (!notice) {
-    
-    return console.log('공지 없음')
+    if (!notice) {
         
+        console.log('공지 없음')
+        
+    } else {
+        
+        document.getElementById('IE').innerHTML += '<br/>' + notice;
+    
+    }
+    
 } else { 
+    
+    if (!notice) {
+    
+        console.log('공지 없음')
+    
+    } else {
 
-    document.write('<div style="padding-top:15px; padding-bottom:15px; background-color:#343434; border-bottom:3px solid #C6FEAD;">' + notice + '</div>')
+        document.write('<div style="padding-top:15px; padding-bottom:15px; background-color:#343434; border-bottom:3px solid #C6FEAD;">' + notice + '</div>')
 
+    }
+    
 }
