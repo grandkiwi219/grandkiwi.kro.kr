@@ -30,7 +30,7 @@ if ( (navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') !
     
 } if (!notice) {
     
-    console.log('로그 없음')
+    console.log('공지 없음')
         
 } else { 
 
