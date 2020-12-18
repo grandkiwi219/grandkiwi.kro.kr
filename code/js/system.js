@@ -26,7 +26,7 @@ var notice = 'Minecraft / Discord / Hypixel / GitHub / CloudFlare status 페이�
 
 if ( (navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') != -1) || (agent.indexOf("msie") != -1) ) {
 
-    document.getElementById('IE').innerHTML += '' + notice;
+    document.getElementById('IE').innerHTML += '<br/>' + notice;
     
 } if (!notice) {
     
