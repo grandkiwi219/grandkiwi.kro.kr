@@ -27,7 +27,7 @@ if ( (navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') !
         
     } else {
         
-        document.getElementById('IE').innerHTML += '<br/><br/>' + notice;
+        document.getElementById('IE').innerHTML += '<br/><br/>' + notice + warn_notice;
     
     }
     
