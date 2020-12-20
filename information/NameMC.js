@@ -9,7 +9,6 @@ request.onload = function () {
         document.getElementById('name-mc').innerHTML += '<div>' + friend.name + '</div>';
 
     })
+
 }
 request.send();
-
- 
