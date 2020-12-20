@@ -6,7 +6,7 @@ request.onload = function () {
 
     data.forEach((friend) => {
 
-        document.getElementById('name-mc').innerHTML += '<p>' + friend.name + '</p>';
+        document.getElementById('name-mc').innerHTML += '<div>' + friend.name + '</div>';
 
     })
 }
