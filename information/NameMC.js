@@ -4,6 +4,8 @@ request.onload = function () {
 
     var data = JSON.parse(this.response);
 
+    documemt.getElementById('name-mc').innerHTML += '<div class="point" data-aos="fade-up" data-aos-duration="1000">-<span style="color:silver;"> NameMC 친구 리스트 </span>-</div><br>';
+
     data.forEach((friend) => {
 
         document.getElementById('name-mc').innerHTML += '<div>' + friend.name + '</div>';
