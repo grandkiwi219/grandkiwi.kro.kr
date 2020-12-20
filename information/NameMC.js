@@ -8,7 +8,7 @@ request.onload = function () {
 
     data.forEach((friend) => {
 
-        document.getElementById('name-mc').innerHTML += '<div class="point" data-aos="fade-up" data-aos-duration="1000">' + friend.name + '</div>';
+        document.getElementById('name-mc').innerHTML += '<div class="point" data-aos="fade-up" data-aos-duration="1000"><a href="https://mine.ly/'+ friend.name + '">' + friend.name + '</a></div>';
 
     })
 
