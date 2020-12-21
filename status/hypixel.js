@@ -13,7 +13,13 @@ hp.summary({
     
          document.getElementById('hypixel').innerHTML += '<hr>' + sys[data.status.description];
 
+         var com = data.components
+
+         document.getElementById('hypxiel').innerHTML += '<hr>' + com[1].name + '&emsp;|&emsp;' + dis[com[1].status];
+
      data.components.forEach(slice => {
+         if (slice.name == 'Minecraft Server' || slice.name == 'Store' || slice.name == 'Support' || slice.name == 'Website' || slice.name == 'Public API') return;
+
          document.getElementById('hypixel').innerHTML += '<hr>';
          document.getElementById('hypixel').innerHTML += slice.name + '&emsp;|&emsp;' + dis[slice.status];
          if (slice.description !== null) { document.getElementById('hypixel').innerHTML += '<br><span style="color:silver;">DESCRIPTION</span><br>' + slice.description; }
