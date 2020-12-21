@@ -15,7 +15,7 @@ hp.summary({
 
          var dcom = data.components
 
-         document.getElementById('hypxiel').innerHTML += '<hr>' + dcom[1].name + '&emsp;|&emsp;' + dis[dcom[1].status];
+         document.getElementById('hypixel').innerHTML += '<hr>' + dcom[1].name + '&emsp;|&emsp;' + dis[dcom[1].status];
 
      data.components.forEach(slice => {
          if (slice.name == 'Minecraft Server' || slice.name == 'Store' || slice.name == 'Support' || slice.name == 'Website' || slice.name == 'Public API') return;
