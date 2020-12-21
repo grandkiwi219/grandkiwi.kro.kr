@@ -16,6 +16,7 @@ hp.summary({
          var dcom = data.components
 
          document.getElementById('hypixel').innerHTML += '<hr>' + dcom[1].name + '&emsp;|&emsp;' + dis[dcom[1].status];
+         if (dcom[1].description !== null) { document.getElementById('hypixel').innerHTML += '<br><span style="color:silver;">DESCRIPTION</span><br>' + dcom[1].description; }
 
      data.components.forEach(slice => {
          if (slice.name == 'Minecraft Server' || slice.name == 'Store' || slice.name == 'Support' || slice.name == 'Website' || slice.name == 'Public API') return;
@@ -24,5 +25,16 @@ hp.summary({
          document.getElementById('hypixel').innerHTML += slice.name + '&emsp;|&emsp;' + dis[slice.status];
          if (slice.description !== null) { document.getElementById('hypixel').innerHTML += '<br><span style="color:silver;">DESCRIPTION</span><br>' + slice.description; }
       })
+
+         document.getElementById('hypixel').innerHTML += '<hr>' + dcom[5].name + '&emsp;|&emsp;' + dis[dcom[5].status];
+         if (dcom[5].description !== null) { document.getElementById('hypixel').innerHTML += '<br><span style="color:silver;">DESCRIPTION</span><br>' + dcom[5].description; }
+
+         document.getElementById('hypixel').innerHTML += '<hr>' + dcom[6].name + '&emsp;|&emsp;' + dis[dcom[6].status];
+         if (dcom[6].description !== null) { document.getElementById('hypixel').innerHTML += '<br><span style="color:silver;">DESCRIPTION</span><br>' + dcom[6].description; }
+
+         document.getElementById('hypixel').innerHTML += '<hr>' + dcom[8].name + '&emsp;|&emsp;' + dis[dcom[8].status];
+         if (dcom[8].description !== null) { document.getElementById('hypixel').innerHTML += '<br><span style="color:silver;">DESCRIPTION</span><br>' + dcom[8].description; }
+
+
    }
 });
