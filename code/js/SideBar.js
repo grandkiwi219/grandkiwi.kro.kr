@@ -5,7 +5,7 @@ const sb
 '<a href="/information">Information</a>',
 '<a href="/community">Community</a>',
 '<a href="/project">Project</a>',
-'<sub style="color:red;">new</sub><a href="/status">Status</a>',
+'<a href="/status"><sub style="color:#ff7385;">new</sub>Status</a>',
 '',
 '',
 '',
