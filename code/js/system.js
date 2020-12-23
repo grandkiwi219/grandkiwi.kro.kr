@@ -15,7 +15,7 @@ if ( (navigator.appName == 'Netscape' && navigator.userAgent.search('Trident') !
 // notice
 
 //var notice = 'Merry Christmas 🎄!<br/>좋은 하루 되시길 바랍니다!'
-var notice = 'Minecraft / Discord / Hypixel / GitHub / CloudFlare status 페이지가 생성되었습니다!<br/><a href="/status">이 곳</a>을 클릭하여 확인해보세요!'
+
 var warn_notice = '<br/><span style="color:silver;">주의</span> ※ <span style="color:silver;">IE에서는 로딩이 안될 수 있습니다</span>'
 
 
