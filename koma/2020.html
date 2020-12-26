@@ -132,7 +132,8 @@
                   <img class="shadow" data-aos="fade-up" data-aos-duration="1900" src="../../img/background.png">
                </p>
                <p data-aos="fade-up" data-aos-duration="1900">
-                  총 사진 수 : 68개
+                  <div>총 사진 수</div>
+                  <div id='root'>0개</div>
                </p>
             <!--End of 2020-->
             <!--I will don't forget this year-->
@@ -150,6 +151,23 @@
       <footer></footer>
 
       <script src="../code/js/function.js"></script>
+
+      <script>
+        let current = 0; 
+
+        const changeNum = (dom) => dom.innerText = ++current + '개';
+
+        const SetInterval = (cb, ms) => setInterval(() => {
+          if(current >= 100) return clearInterval(SetInterval);
+          cb();
+        }, ms);
+
+        const MS = 100;
+        const domRoot = document.getElementById('root');
+        domRoot.innerText = '0개'; 
+
+        SetInterval(changeNum.bind(null, domRoot), MS);
+      </script>
 
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script>
