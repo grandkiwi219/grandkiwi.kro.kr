@@ -159,7 +159,7 @@
         const changeNum = (dom) => dom.innerText = ++current + '개';
 
         const SetInterval = (cb, ms) => setInterval(() => {
-          if(current >= 68) return clearInterval(SetInterval);
+          if(current >= 70) return clearInterval(SetInterval);
           cb();
         }, ms);
 
