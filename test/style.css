@@ -32,20 +32,6 @@ hr {
     width: 95%;
 }
 
-div[class="sidebar"] {
-    width: 300px;
-    height: 100%;
-    background: #222;
-    position: fixed;
-    top: 0;
-    left: -300px;
-    z-index: 1;
-    transition: all .35s;
-}
-input[id="menuicon"]:checked + label + div {
-    left: 300px;
-}
-
 .menu {
     position: fixed;
     background-color: rgba(48, 48, 48, 0.94);
