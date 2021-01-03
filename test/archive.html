@@ -10,34 +10,18 @@
         <meta property="og:title" content="Baehyeonwoo | Archive">
 
         <style>
-            html {
-                overflow: auto;
-                scroll-behavior: smooth;
-                height: 100%;
-            }
-            body {
-                margin: 0;
-                padding: 0;
-                height: 100%;
-            }
-            body::before {
-                position:fixed; 
-                top:0; 
-                left:0; 
-                right:0; 
-                bottom:0; 
-                background-image: url('https://baehyeonwoo.com/pf.jpg');
-                background-size: cover; 
-                background-attachment:fixed;
-                z-index:-1; 
-                content:""; 
-            }
+            html { overflow: auto; scroll-behavior: smooth; height: 100%; }
+            body { margin: 0; padding: 0; height: 100%; }
+            body::before { position:fixed; top: 0; left: 0; right: 0; bottom: 0; background-image: url('https://baehyeonwoo.com/pf.jpg'); background-size: cover; background-attachment: fixed; z-index:-1; content: ""; }
+            .side-bar { position: fixed; background-color: rgb(48, 48, 48); padding: 15px 0 15px 0; color: rgb(255, 255, 255); text-align: center; width: 100%; }
         </style>
     </head>
     <body>
-        <!--div style="position: fixed; background-color: rgb(48, 48, 48); padding: 15px 0 15px 0; color: rgb(255, 255, 255); text-align: center; width: 100%;">Baehyeonwoo<!/div-->
-        <div style="opacity: 1; height: 100%; padding: 0 auto;">ff</div>
-        <div style="width: 100%; background-color: white;">sk</div>
+        <div class="side-bar">Baehyeonwoo</div>
+        <div style="height: 100%; color: white;">
+            <div style="margin: 0 auto;">hello</div>
+        </div>
+        <div style="width: 100%; background-color: white; bottom: 0;">sk</div>
     </body>
 </html>
 
