@@ -16,23 +16,29 @@
             body { margin: 0; padding: 0; width: 100%; height: 100%; text-align: center; font-family: 'Roboto', sans-serif; }
             body::before { position:fixed; top: 0; left: 0; right: 0; bottom: 0; background-image: url('https://baehyeonwoo.com/pf.jpg'); background-size: cover; background-attachment: fixed; background-repeat: no-repeat; background-position: center; z-index:-1; content: ""; }
             hr { border: solid 0.2px silver; width: 95%; }
-            .side-bar { position: fixed; background-color: rgb(48, 48, 48); padding: 15px 0 15px 0; color: rgb(255, 255, 255); text-align: center; width: 100%; }
+
+            .menu { position: fixed; background-color: rgb(48, 48, 48); padding: 15px 0 15px 0; color: rgb(255, 255, 255); text-align: center; width: 100%; }
+            .title { font-size: 30px; text-align: center; }
+            #back { width: 100%; background-color: white; }
+            #back .ground { width: 100%; max-width: 1300px; padding: 20px 0 20px 0; text-align: center; }
+            #description { font-size: 17px; padding: 0 20px 0 20px; text-align: left; }
+            #footer { font-size: 12px; padding: 0 20px 0 20px; color: silver; text-align: left; }
         </style>
     </head>
     <body>
-        <div class="side-bar">BaeHyeonWoo</div>
+        <div class="menu">BaeHyeonWoo</div>
         <div style="height: 100%; color: white;">
         </div>
-        <div style="width: 100%; background-color: white;">
-            <div style="width: 100%; max-width: 1300px; padding: 20px 0 20px 0; text-align: center;">
-                <div style="font-size: 17px; padding: 0 20px 0 20px; text-align: left;">
-                    <div style="font-size: 30px; text-align: center;">
+        <div id="back">
+            <div class="ground">
+                <div id="description">
+                    <div class="title">
                         Hello 👋
                     </div>
                     I'm BaeHyeonWoo
                 </div>
                 <hr/>
-                <div style="font-size: 12px; padding: 0 20px 0 20px; color: silver; text-align: left;">
+                <div id="footer">
                     Copyright © All rights reserved | BaeHyeonWoo
                 </div>
             </div>
