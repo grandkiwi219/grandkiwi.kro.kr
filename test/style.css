@@ -48,7 +48,10 @@ hr {
 }
 #space {
     height: 100%;
+}
+#space #text {
     color: white;
+    margin: 0 auto;
 }
 #back {
     width: 100%;
