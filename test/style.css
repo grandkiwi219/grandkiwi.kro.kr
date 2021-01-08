@@ -48,12 +48,7 @@ hr {
 }
 #space {
     height: 100%;
-    text-align: center;
     color: white;
-}
-#space #text {
-    margin-top: 50%;
-    display: inline-block;
 }
 #back {
     width: 100%;
