@@ -34,7 +34,7 @@ hr {
 
 .menu {
     position: fixed;
-    background-color: rgba(48, 48, 48, 0.94);
+    background-color: rgb(48, 48, 48);
     padding: 15px 0 15px 0;
     color: rgb(255, 255, 255);
     text-align: center;
