@@ -50,6 +50,10 @@ hr {
     height: 100%;
     color: white;
 }
+#gap {
+    height: 20%;
+    color: white;
+}
 #back {
     width: 100%;
     background-color: white;
