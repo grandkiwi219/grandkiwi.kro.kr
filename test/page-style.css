@@ -12,20 +12,7 @@ body {
     height: 100%;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-}
-body::before {
-    position:fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image: url('https://baehyeonwoo.com/pf.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index:-1;
-    content: "";
+    background-color: white;
 }
 hr {
     border: solid 0.2px silver;
@@ -56,7 +43,6 @@ hr {
 }
 #back {
     width: 100%;
-    background-color: white;
 }
 #back .ground {
     width: 100%;
