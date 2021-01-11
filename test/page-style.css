@@ -34,9 +34,8 @@ hr {
     margin: 10px 0 10px 0;
 }
 .page-img {
-    position: fixed;
     width: 100%;
-    z-index: -1;
+    z-inxex: -2;
 }
 #space {
     height: 30%;
