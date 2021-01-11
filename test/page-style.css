@@ -46,11 +46,11 @@ hr {
     text-align: center;
     margin: 10px 0 10px 0;
 }
-#space {
-    height: 100%;
-    color: white;
+.page-img {
+    width: 100%;
+    z-index: -1;
 }
-#gap {
+#space {
     height: 20%;
     color: white;
 }
