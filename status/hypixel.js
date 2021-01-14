@@ -15,8 +15,8 @@ hp.summary({
 
          var dcom = data.components
 
-         document.getElementById('hypixel').innerHTML += '<hr>' + dcom[1].name + '&emsp;|&emsp;' + dis[dcom[1].status];
-         if (dcom[1].description !== null) { document.getElementById('hypixel').innerHTML += '<br><span style="color:silver;">DESCRIPTION</span><br>' + dcom[1].description; }
+         document.getElementById('hypixel').innerHTML += '<hr>' + dcom[0].name + '&emsp;|&emsp;' + dis[dcom[0].status];
+         if (dcom[0].description !== null) { document.getElementById('hypixel').innerHTML += '<br><span style="color:silver;">DESCRIPTION</span><br>' + dcom[0].description; }
 
      data.components.forEach(slice => {
          if (slice.name == 'Minecraft Server' || slice.name == 'Store' || slice.name == 'Support' || slice.name == 'Website' || slice.name == 'Public API') return;
