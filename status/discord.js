@@ -26,7 +26,7 @@ sp.summary({
    success: function(data) {
       document.getElementById('discord').innerHTML = '<h2><a href="' + data.page.url + '">' + data.page.name + '</a></h2>';
       
-      document.getElementById('discord').innerHTML += '<hr>' + sys[data.status.description] + '<hr>';
+      document.getElementById('discord').innerHTML += '<hr>' + sys[data.status.description]; //+ '<hr>';
 /*
       document.getElementById('discord').innerHTML += data.components[1].name + '&emsp;|&emsp;' + dis[data.components[1].status];
       if (data.components[1].description !== null) { document.getElementById('discord').innerHTML += '<br><span style="color:silver;">DESCRIPTION</span><br>' + data.components[1].description; }
