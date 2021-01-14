@@ -27,7 +27,7 @@ sp.summary({
       document.getElementById('discord').innerHTML = '<h2><a href="' + data.page.url + '">' + data.page.name + '</a></h2>';
       
       document.getElementById('discord').innerHTML += '<hr>' + sys[data.status.description] + '<hr>';
-
+/*
       document.getElementById('discord').innerHTML += data.components[1].name + '&emsp;|&emsp;' + dis[data.components[1].status];
       if (data.components[1].description !== null) { document.getElementById('discord').innerHTML += '<br><span style="color:silver;">DESCRIPTION</span><br>' + data.components[1].description; }
 
@@ -42,16 +42,16 @@ sp.summary({
 
       document.getElementById('discord').innerHTML += '<hr>' + data.components[11].name + '&emsp;|&emsp;' + dis[data.components[11].status];
       if (data.components[11].description !== null) { document.getElementById('discord').innerHTML += '<br><span style="color:silver;">DESCRIPTION</span><br>' + data.components[11].description; }
-
+*/
    data.components.forEach(slice => {
 
-       if (slice.name == 'API' || slice.name == 'CloudFlare' || slice.name == 'Media Proxy' || slice.name == 'Tax Calculation Service' || slice.name == 'Push Notifications' || slice.name == 'Search' || slice.name == 'Voice' || slice.name == 'Third-party') return;
+       //if (slice.name == 'API' || slice.name == 'CloudFlare' || slice.name == 'Media Proxy' || slice.name == 'Tax Calculation Service' || slice.name == 'Push Notifications' || slice.name == 'Search' || slice.name == 'Voice' || slice.name == 'Third-party') return;
 
        document.getElementById('discord').innerHTML += '<hr>';
        document.getElementById('discord').innerHTML += slice.name + '&emsp;|&emsp;' + dis[slice.status];
        if (slice.description !== null) { document.getElementById('discord').innerHTML += '<br><span style="color:silver;">DESCRIPTION</span><br>' + slice.description; }
     })
-
+/*
       document.getElementById('discord').innerHTML += '<hr>' + data.components[12].name + '&emsp;|&emsp;' + dis[data.components[12].status];
       if (data.components[12].description !== null) { document.getElementById('discord').innerHTML += '<br><span style="color:silver;">DESCRIPTION</span><br>' + data.components[12].description; }
 
@@ -60,6 +60,6 @@ sp.summary({
 
       document.getElementById('discord').innerHTML += '<hr>' + data.components[4].name + '&emsp;|&emsp;' + dis[data.components[4].status];
       if (data.components[4].description !== null) { document.getElementById('discord').innerHTML += '<br><span style="color:silver;">DESCRIPTION</span><br>' + data.components[4].description; }
-
+*/
   }
 })
