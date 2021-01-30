@@ -61,5 +61,13 @@
     "description": [
         "`>>userinfo` 명령어에서 키위봇의 서포트 서버에서 `니트로 부스트`를 할 경우 <:kiwiserver_boost:804360133361926164>가 나타나게 됩니다"
     ]
+},
+{
+    "title": "2021-1-31 업데이트",
+    "content": "2가지가 업데이트 되었습니다!",
+    "description": [
+        "키위봇의 `>>userinfo` 명령어의 뱃지 json 파일을 어디서든 확인할 수 있습니다!\n    [자세히 보기](https://grandkiwi219.github.io/bot/api/badge.json)",
+        "키위봇의 `업데이트 내역` json 파일을 어디서든 확인할 수 있습니다!\n    [자세히 보기](https://grandkiwi219.github.io/bot/api/update.json)"
+    ]
 }
 ]
