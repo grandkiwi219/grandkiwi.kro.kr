@@ -1,11 +1,11 @@
 {
-    "385725000432484355": { "name": "키위", "link": "https://cdn.discordapp.com/attachments/752124600166383673/808693112616386602/366_20210209223719.png" },
-    "723332169702834197": { "name": "메이비", "link": "https://cdn.discordapp.com/attachments/802236813502316544/808669623657955359/661.jpg" },
-    "777170696412987402": { "name": "넷코마", "format": "png" },
-    "340838730988519424": { "name": "워누", "link": "https://cdn.discordapp.com/attachments/802236813502316544/808629849798344744/3fa6a6709a74e2e73597e8828a427fba.jpg" },
-    "709503376232153171": { "name": "시니아", "link": "https://cdn.discordapp.com/attachments/802236813502316544/808630474942447657/HxJlK3hF.png" },
-    "469445740997902336": { "name": "지망", "link": "https://cdn.discordapp.com/attachments/802236813502316544/808608861959225344/jimang.png" },
-    "630721937001152512": { "name": "우토", "format": "png" },
-    "637967181748895774": { "name": "블링크", "format": "png" },
-    "715509144261623848": { "name": "만보", "format": "png" }
+    "385725000432484355": { "user": "키위", "name": "grand_kiwi.png" },
+    "723332169702834197": { "user": "메이비", "link": "https://cdn.discordapp.com/attachments/802236813502316544/808669623657955359/661.jpg" },
+    "777170696412987402": { "user": "넷코마", "name": "netkoma.png" },
+    "340838730988519424": { "user": "워누", "link": "https://cdn.discordapp.com/attachments/802236813502316544/808629849798344744/3fa6a6709a74e2e73597e8828a427fba.jpg" },
+    "709503376232153171": { "user": "시니아", "link": "https://cdn.discordapp.com/attachments/802236813502316544/808630474942447657/HxJlK3hF.png" },
+    "469445740997902336": { "user": "지망", "link": "https://cdn.discordapp.com/attachments/802236813502316544/808608861959225344/jimang.png" },
+    "630721937001152512": { "user": "우토", "name": "wooto.png" },
+    "637967181748895774": { "user": "블링크", "name": "blink.png" },
+    "715509144261623848": { "user": "만보", "name": "manbo.png" }
 }
