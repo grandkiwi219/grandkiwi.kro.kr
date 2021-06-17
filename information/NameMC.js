@@ -6,7 +6,7 @@ request.onload = function () {
 
     document.getElementById('name-mc').innerHTML += '<div class="point" data-aos="fade-up" data-aos-duration="1000"><a href="https://namemc.com/profile/grand_kiwi219.1">grand kiwi NameMC</a></div><br>';
 
-    document.getElementById('name-mc').innerHTML += '<div class="point" data-aos="fade-up" data-aos-duration="1000">-<span class="silver"> NameMC 친구 리스트 </span>-</div><br>';
+    document.getElementById('name-mc').innerHTML += '<div class="point" data-aos="fade-up" data-aos-duration="1000">-<span class="silver"> NameMC 팔로워 리스트 </span>-</div><br>';
 
     data.forEach((friend) => {
 
