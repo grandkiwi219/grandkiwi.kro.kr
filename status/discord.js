@@ -11,7 +11,8 @@ var sys = {
    "Partial System Outage": "<span style='color:#f5a142;'>부분 시스템 중단</span>",
    "Major Service Outage": "<span style='color:;#f54242'>주요 서비스 중단</span>",
    "Minor Service Outage": "<span style='color:#ffec5c;'>사소한 서비스 중단</span>",
-   "Service Under Maintenance": "<span style='color:#34a1eb;'>서비스 유지 보수중</span>"
+   "Service Under Maintenance": "<span style='color:#34a1eb;'>서비스 유지 보수중</span>",
+   "Partially Degraded Service": "<span style='color:#fcba03;'>부분적인 성능 저하</span>"
 }
 
 setTimeout(() => {
