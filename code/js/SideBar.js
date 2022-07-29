@@ -5,7 +5,7 @@ const sb
 '<a href="/information">Information</a>',
 '<a href="/community">Community</a>',
 '<a href="/project">Project</a>',
-'<a href="/status">Status</a>',
+//'<a href="/status">Status</a>',
 '',
 '',
 '',
