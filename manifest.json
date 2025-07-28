@@ -1,0 +1,15 @@
+{
+  "short_name": "gk-web",
+  "name": "grand kiwi's website",
+  "icons": [
+    {
+      "src": "img/ticon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#96FFCF",
+  "background_color": "#ffffff"
+}
