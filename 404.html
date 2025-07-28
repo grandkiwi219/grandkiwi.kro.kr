@@ -32,16 +32,35 @@
         </header>
 
         <gk-base>
-            <div style="margin-left:15px; margin-right:15px;">
-            
-                <h2 style="font-size:50px; margin-top:60px;"><b><span style="font-size:70px;">404</span><br>Not Found</b></h2>
-            
-                <p style="font-size:15px; margin-bottom:90px;">
-                    주소를 잘못 입력하셨거나 페이지를 찾을 수 없어요.. :(<br>
-                    위쪽 사이드바를 통해 페이지를 이동해주세요!
-                </p>
-            
-            </div>
+            <noscript>You need to enable JavaScript to run this app.</noscript>
+            <gk-sidebar>
+                <input id="navcheck" role="button" type="checkbox">
+                <label for="navcheck" aria-hidden="true" style="cursor: inherit;">
+                    <span class="burger" style="cursor: pointer;">
+                        <span class="bar">
+                            <span class="visuallyhidden">Menu</span>
+                        </span>
+                    </span>
+                </label>
+                <nav id="menu">
+                    <a href="/" data-discover="true">Home</a>
+                    <a href="/information" data-discover="true">Information</a>
+                    <a href="/community" data-discover="true">Community</a>
+                    <a href="/project" data-discover="true">Project</a>
+                </nav>
+            </gk-sidebar>
+            <gk-404>
+                <div style="margin-left:15px; margin-right:15px;">
+                
+                    <h2 style="font-size:50px; margin-top:60px;"><b><span style="font-size:70px;">404</span><br>Not Found</b></h2>
+                
+                    <p style="font-size:15px; margin-bottom:90px;">
+                        주소를 잘못 입력하셨거나 페이지를 찾을 수 없어요.. :(<br>
+                        위쪽 사이드바를 통해 페이지를 이동해주세요!
+                    </p>
+                
+                </div>
+            </gk-404>
         </gk-base>
 
         <footer>
@@ -51,6 +70,26 @@
                © grand kiwi's party  |  <a href='https://github.com/grandkiwi219' target="_blank">github</a>  |  <a href='https://invite.grandkiwi.kro.kr' target="_blank">discord</a>  |  <a href='https://github.com/grandkiwi219/grandkiwi.kro.kr' target="_blank">power</a>
             </div>
         </footer>
+
+        <script>
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') {
+                    closeSideBar();
+                }
+            });
+
+            document.addEventListener('click', (e) => {
+                const menu = document.getElementById('menu');
+
+                if (menu && menu.contains(e.target) && e.target.tagName === 'A') {
+                    closeSideBar();
+                }
+            });
+
+            function closeSideBar() {
+                document.getElementById("navcheck").checked = false;
+            }
+        </script>
 
     </body>
 
