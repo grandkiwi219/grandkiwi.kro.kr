@@ -1,6 +1,6 @@
 export default function Page() {
     return (
-        <>
+        <gk-404>
             <div style={{
                 marginLeft: '15px',
                 marginRight: '15px'
@@ -29,6 +29,6 @@ export default function Page() {
                 </p>
     
             </div>
-        </>
+        </gk-404>
   );
 }
