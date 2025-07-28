@@ -1,0 +1,51 @@
+.ac {
+    color: orange;
+}
+
+.point {
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.hp {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.namu {
+    color: #A9FE86;
+}
+
+.namu2 {
+    color: #CCFF7D;
+}
+
+.namu3 {
+    color: #97FFCD;
+}
+
+.namu4 {
+    color: #BEFFD2;
+}
+
+.mb {
+    margin-bottom: 55px;
+}
+
+
+#information {
+    background-color: white;
+    color: #474747;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-top: 3px solid #C6FEAD;
+    border-bottom: 3px solid #C6FEAD;
+}
+
+@media (prefers-color-scheme: dark) {
+    #information {
+        background-color: #343434;
+        color: white;
+    }
+}
